@@ -1,2 +1,5 @@
 myvenv
 .DS_Store
+dump.rdb
+assets/
+__pycache__

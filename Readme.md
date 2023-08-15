@@ -6,7 +6,7 @@
 
 ### Python backend
 
-  - POST /transcribe API to accept a url for a media file, this api returns a job id. Returns 201
+  - POST /transcribe API to accept a url for a media file, this api returns a job id. Returns 200
 
   - GET /fetch API to fetch the transcription made by the server. Returns 200
 
@@ -17,3 +17,7 @@
 
   - In the background do a long polling on /fetch API with the returned job id
 
+
+
+
+brew install redis

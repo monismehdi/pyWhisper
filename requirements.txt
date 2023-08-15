@@ -1,2 +1,5 @@
 Flask==2.3.2
 simplejson==3.19.1
+openai-whisper
+redis
+rq
